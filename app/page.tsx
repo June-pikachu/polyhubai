@@ -71,7 +71,7 @@ export default function HomePage() {
       {/* Coming Soon Section: Describes upcoming features like embedded wallets and auto-trading */}
       <section className="border-t border-ov-border/55 bg-black/35">
         <div className="mx-auto max-w-6xl px-4 py-9">
-          <div className="relative overflow-hidden rounded-3xl border border-ov-border/70 bg-gradient-to-br from-black/85 via-ov-bg-soft/95 to-black/90 p-5 shadow-ov-soft">
+          <div className="relative overflow-hidden rounded-3xl border border-ov-border/65 bg-gradient-to-br from-black/85 via-ov-bg-soft/95 to-black/90 p-5 shadow-ov-soft/90">
             <div className="pointer-events-none absolute inset-0 opacity-55">
               <div className="absolute -left-10 top-0 h-40 w-40 rounded-full bg-ov-accent/20 blur-3xl" />
               <div className="absolute -right-10 bottom-0 h-40 w-40 rounded-full bg-ov-purple/25 blur-3xl" />

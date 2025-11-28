@@ -14,7 +14,7 @@ export default function AgentManagerPage() {
           <div className="mb-4 flex items-center justify-between">
             <div>
               <h2 className="text-sm font-semibold tracking-tight">Orders</h2>
-              <p className="text-[11px] text-ov-text-muted mt-0.5">
+              <p className="text-[11px] text-ov-text-muted/90 mt-0.5">
                 View and manage your trading orders
               </p>
             </div>
@@ -69,7 +69,7 @@ export default function AgentManagerPage() {
             <h2 className="text-sm font-semibold tracking-tight">
               AI Trading Agents
             </h2>
-            <p className="text-[11px] text-ov-text-muted mt-0.5">
+            <p className="text-[11px] text-ov-text-muted/90 mt-0.5">
               Create and configure automated trading agents
             </p>
           </div>

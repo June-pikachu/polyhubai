@@ -36,7 +36,7 @@ export function MarketCard({ market }: Props) {
                 </span>
             )}
           </div>
-          <h3 className="line-clamp-2 text-sm font-semibold">
+          <h3 className="line-clamp-2 text-sm font-semibold leading-snug">
             {market.question}
           </h3>
         </div>

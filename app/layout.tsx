@@ -68,7 +68,7 @@ export default function RootLayout({
                 Market data from Polymarket.
               </p>
               <div className="flex flex-col items-end gap-1 sm:items-end">
-                <p className="text-[9px]">
+                <p className="text-[9px] text-ov-text-muted/80">
                   Respect Polymarket&apos;s Terms of Service when using their
                   platform.
                 </p>

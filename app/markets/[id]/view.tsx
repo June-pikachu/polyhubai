@@ -98,7 +98,7 @@ export function MarketDetailView({ market }: Props) {
           </Link>
         </div>
 
-        <h1 className="text-lg font-semibold tracking-tight">
+        <h1 className="text-lg font-semibold tracking-tight leading-snug">
           {market.question}
         </h1>
 
