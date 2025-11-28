@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import Link from "next/link";
 
+// App metadata for SEO and browser tab title
 export const metadata: Metadata = {
   title: "PolyHubAI – AI vs Market Explorer",
   description:
