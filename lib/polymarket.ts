@@ -32,6 +32,7 @@ export interface MarketSummary {
   active: boolean;
 }
 
+// Polymarket Gamma API base URL for fetching market data
 const GAMMA_BASE_URL = "https://gamma-api.polymarket.com";
 
 function parseOutcomes(outcomesRaw: any, pricesRaw: any): OutcomePrice[] {
