@@ -3,9 +3,9 @@ export default function AgentManagerPage() {
     <div className="mx-auto max-w-6xl px-4 py-6">
       <div className="mb-6">
         <h1 className="text-lg font-semibold tracking-tight">Agent Manager</h1>
-        <p className="text-[11px] text-ov-text-muted mt-1">
-          Manage and configure your AI trading agents
-        </p>
+            <p className="text-[11px] text-ov-text-muted/90 mt-1">
+              Manage and configure your AI trading agents
+            </p>
       </div>
 
       <div className="space-y-6">

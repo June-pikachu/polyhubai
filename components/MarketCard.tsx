@@ -71,7 +71,7 @@ export function MarketCard({ market }: Props) {
             target="_blank"
             rel="noopener noreferrer"
             title="Open this market on Polymarket"
-            className="inline-flex items-center rounded-full border border-ov-border/60 bg-black/70 px-3 py-1.5 text-[10px] font-medium text-ov-text-muted hover:text-white hover:border-purple-400/70 hover:bg-black/90 transition-all"
+            className="inline-flex items-center rounded-full border border-ov-border/55 bg-black/70 px-3 py-1.5 text-[10px] font-medium text-ov-text-muted hover:text-white hover:border-purple-400/65 hover:bg-black/90 transition-all"
           >
             <span>Polymarket</span>
             <span aria-hidden className="ml-1 text-[10px]">

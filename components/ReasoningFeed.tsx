@@ -20,8 +20,8 @@ export function ReasoningFeed({ reasoning, bullets, sources }: Props) {
       <p className="text-sm leading-relaxed text-slate-200/85">{reasoning}</p>
       {/* Bullet points summarizing key factors */}
       {bullets.length > 0 && (
-        {/* List of bullet points with leading dots */}
-        <ul className="mt-2 space-y-1.5 text-sm text-ov-text-muted">
+        <ul className="mt-2 space-y-1.5 text-sm text-ov-text-muted/90">
+          {/* List of bullet points with leading dots */}
           {bullets.map((b, i) => (
             <li key={i} className="flex gap-2">
               <span className="mt-[6px] h-[3px] w-[3px] rounded-full bg-ov-accent/80" />
@@ -31,8 +31,8 @@ export function ReasoningFeed({ reasoning, bullets, sources }: Props) {
         </ul>
       )}
       {sources.length > 0 && (
-        {/* Sources section - optional links provided by the AI */}
         <div className="mt-3 border-t border-ov-border/50 pt-2">
+          {/* Sources section - optional links provided by the AI */}
           <h4 className="mb-1 text-[11px] font-semibold text-ov-text-muted uppercase tracking-wide">
             Sources (declared by model)
           </h4>

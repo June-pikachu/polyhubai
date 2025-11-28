@@ -91,7 +91,7 @@ export function MarketDetailView({ market }: Props) {
             target="_blank"
             rel="noopener noreferrer"
             title="Open this market on Polymarket"
-            className="inline-flex items-center gap-1 rounded-full border border-ov-border/60 bg-white/95 px-3 py-1 text-[11px] font-medium text-black transition-all hover:bg-white shadow-ov-soft hover:shadow-ov-glow/60"
+            className="inline-flex items-center gap-1 rounded-full border border-ov-border/55 bg-white/95 px-3 py-1 text-[11px] font-medium text-black transition-all hover:bg-white shadow-ov-soft/90 hover:shadow-ov-glow/55"
           >
             <span>Open on Polymarket</span>
             <span aria-hidden>↗</span>

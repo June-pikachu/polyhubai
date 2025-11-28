@@ -65,8 +65,7 @@ export default function RootLayout({
           <footer className="relative z-10 border-t border-ov-border/45 bg-black/45 backdrop-blur">
             <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-3 text-[10px] text-ov-text-muted sm:flex-row sm:items-center sm:justify-between">
               <p>
-                Market data from Polymarket Gamma API. This UI is informational
-                only and does not execute trades.
+                Market data from Polymarket.
               </p>
               <div className="flex flex-col items-end gap-1 sm:items-end">
                 <p className="text-[9px]">
