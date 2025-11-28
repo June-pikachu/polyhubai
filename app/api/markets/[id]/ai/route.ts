@@ -118,6 +118,7 @@ export async function POST(_: Request, { params }: Params) {
     aiClean[key] = aiClean[key] / total;
   }
 
+  // Calculate edge: difference between AI probability and market probability (positive = AI higher, negative = market higher)
   const edge: Record<string, number> = {};
   for (const label of labels) {
     const ai = aiClean[label] ?? 0;
