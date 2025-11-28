@@ -50,19 +50,20 @@ export function AIResultPanel({ analysis, loading, onRefresh }: Props) {
         </button>
       </div>
 
-      {analysis ? (
-        <>
-          <ProbabilityBars
-            aiProbabilities={analysis.ai_probabilities}
-            marketProbabilities={analysis.market_probabilities}
-          />
-          <ReasoningFeed
-            reasoning={analysis.reasoning}
-            bullets={analysis.bullet_points}
-            sources={analysis.sources}
-          />
-        </>
-      ) : (
+          {/* Display analysis results if available, otherwise show empty state */}
+          {analysis ? (
+            <>
+              <ProbabilityBars
+                aiProbabilities={analysis.ai_probabilities}
+                marketProbabilities={analysis.market_probabilities}
+              />
+              <ReasoningFeed
+                reasoning={analysis.reasoning}
+                bullets={analysis.bullet_points}
+                sources={analysis.sources}
+              />
+            </>
+          ) : (
             <div className="rounded-2xl border border-dashed border-ov-border/50 bg-black/40 p-4 text-sm text-ov-text-muted">
           Click &ldquo;Re-run AI view&rdquo; to generate an AI forecast and
           compare it to the current market odds.

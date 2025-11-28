@@ -57,6 +57,7 @@ export function MarketCard({ market }: Props) {
         )}
       </div>
 
+      {/* Action buttons section */}
       <div className="mt-4 flex items-center justify-between gap-2">
         <p className="text-[11px] text-ov-text-muted">
           Click to see AI probabilities vs the market, or open the original on

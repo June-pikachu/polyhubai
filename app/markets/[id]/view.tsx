@@ -117,11 +117,12 @@ export function MarketDetailView({ market }: Props) {
         onRefresh={runAnalysis}
       />
 
-      {error && (
-        <div className="rounded-2xl border border-red-500/40 bg-red-500/10 px-3 py-2 text-[11px] text-red-200">
-          {error}
-        </div>
-      )}
+          {/* Display error message if AI analysis fails */}
+          {error && (
+            <div className="rounded-2xl border border-red-500/40 bg-red-500/10 px-3 py-2 text-[11px] text-red-200">
+              {error}
+            </div>
+          )}
 
       <p className="text-[10px] text-ov-text-muted">
         PolyHubAI uses AI to generate probabilities and explanations. This may

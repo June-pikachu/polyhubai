@@ -88,18 +88,21 @@ export async function POST(_: Request, { params }: Params) {
     );
   }
 
-  const raw = completion.choices[0].message.content ?? "{}";
-  let data: any;
-  try {
-    data = JSON.parse(raw);
-  } catch {
-    data = {};
-  }
+      // Parse OpenAI's JSON response
+      // The model is instructed to return JSON with ai_probabilities, reasoning, bullet_points, and sources
+      const raw = completion.choices[0].message.content ?? "{}";
+      let data: any;
+      try {
+        data = JSON.parse(raw);
+      } catch {
+        data = {};
+      }
 
-  const ai_probs_raw = data.ai_probabilities ?? {};
-  const bullet_points = data.bullet_points ?? [];
-  const reasoning = data.reasoning ?? "No reasoning provided.";
-  const sources_raw = data.sources ?? [];
+      // Extract structured data from OpenAI response with safe defaults
+      const ai_probs_raw = data.ai_probabilities ?? {};
+      const bullet_points = data.bullet_points ?? [];
+      const reasoning = data.reasoning ?? "No reasoning provided.";
+      const sources_raw = data.sources ?? [];
 
   // Extract valid outcome labels from the market
   const labels = market.outcomes.map((o) => o.label);
