@@ -44,13 +44,13 @@ export default function RootLayout({
               <nav className="flex items-center gap-3 text-xs font-medium">
                 <Link
                   href="/markets"
-                  className="rounded-full border border-ov-border/70 bg-black/40 px-3 py-1.5 text-xs text-ov-text-muted hover:border-ov-accent hover:text-white hover:shadow-ov-glow transition-all"
+                  className="rounded-full border border-ov-border/70 bg-black/35 px-3 py-1.5 text-xs text-ov-text-muted hover:border-ov-accent hover:text-white hover:shadow-ov-glow/80 transition-all"
                 >
                   Markets
                 </Link>
                 <Link
                   href="/agent-manager"
-                  className="rounded-full border border-ov-border/70 bg-black/40 px-3 py-1.5 text-xs text-ov-text-muted hover:border-ov-accent hover:text-white hover:shadow-ov-glow transition-all"
+                  className="rounded-full border border-ov-border/70 bg-black/35 px-3 py-1.5 text-xs text-ov-text-muted hover:border-ov-accent hover:text-white hover:shadow-ov-glow/80 transition-all"
                 >
                   Agent Manager
                 </Link>

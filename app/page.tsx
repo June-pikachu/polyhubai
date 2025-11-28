@@ -49,13 +49,13 @@ export default function HomePage() {
               <div className="grid grid-cols-2 gap-3 text-[11px]">
                 <div className="space-y-1 rounded-2xl border border-ov-border/60 bg-black/60 p-3">
                   <p className="text-ov-text-muted">Market odds</p>
-                  <p className="font-semibold text-purple-300">Yes · 42%</p>
-                  <p className="font-semibold text-purple-300">No · 58%</p>
+                  <p className="font-semibold text-purple-300/90">Yes · 42%</p>
+                  <p className="font-semibold text-purple-300/90">No · 58%</p>
                 </div>
                 <div className="space-y-1 rounded-2xl border border-ov-border/60 bg-black/60 p-3">
                   <p className="text-ov-text-muted">AI view</p>
-                  <p className="font-semibold text-cyan-300">Yes · 55%</p>
-                  <p className="font-semibold text-cyan-300">No · 45%</p>
+                  <p className="font-semibold text-cyan-300/90">Yes · 55%</p>
+                  <p className="font-semibold text-cyan-300/90">No · 45%</p>
                 </div>
               </div>
               <p className="text-[10px] text-ov-text-muted">
