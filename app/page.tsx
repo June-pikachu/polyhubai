@@ -35,7 +35,7 @@ export default function HomePage() {
             <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_20%_0,_rgba(34,211,238,0.18)_0,_transparent_50%),radial-gradient(circle_at_80%_100%,_rgba(168,85,247,0.2)_0,_transparent_50%)]" />
             <div className="relative space-y-4">
               <p className="text-xs font-semibold text-ov-text-muted">
-                Example snapshot
+                Live-style snapshot
               </p>
               <div className="space-y-2 rounded-2xl border border-ov-border/60 bg-black/60 p-3">
                 <p className="text-[11px] text-ov-text-muted">Question</p>
