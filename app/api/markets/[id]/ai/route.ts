@@ -120,6 +120,10 @@ export async function POST(_: Request, { params }: Params) {
   }
 
   // Calculate edge: difference between AI probability and market probability (positive = AI higher, negative = market higher)
+  // Calculate edge: AI probability minus market probability for each outcome
+  // Positive edge = AI is more bullish than market
+  // Negative edge = AI is more bearish than market
+  // Zero edge = AI and market agree
   const edge: Record<string, number> = {};
   for (const label of labels) {
     const ai = aiClean[label] ?? 0;

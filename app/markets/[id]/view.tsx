@@ -50,6 +50,7 @@ export function MarketDetailView({ market }: Props) {
     }
   };
 
+  // Automatically fetch AI analysis when the market changes
   useEffect(() => {
     runAnalysis();
     // eslint-disable-next-line react-hooks/exhaustive-deps
