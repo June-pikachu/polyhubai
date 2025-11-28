@@ -1,3 +1,6 @@
+/**
+ * Represents a market outcome with its label and current price (probability).
+ */
 export type OutcomePrice = {
   label: string;
   price: number;
