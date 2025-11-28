@@ -59,7 +59,7 @@ export function MarketDetailView({ market }: Props) {
     [...market.outcomes].sort((a, b) => b.price - a.price)[0] || null;
 
   return (
-    <div className="space-y-5">
+    <div className="space-y-6">
       <div className="space-y-2 rounded-2xl border border-ov-border/80 bg-black/60 p-4 shadow-ov-soft">
         <div className="flex flex-wrap items-center justify-between gap-2">
           <div className="flex flex-wrap items-center gap-2 text-[11px] text-ov-text-muted">
