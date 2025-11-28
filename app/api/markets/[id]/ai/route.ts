@@ -4,6 +4,10 @@ import OpenAI from "openai";
 
 type Params = { params: { id: string } };
 
+/**
+ * Normalizes outcome prices to probabilities that sum to 1.0.
+ * Handles edge cases where prices sum to zero by distributing evenly.
+ */
 function normalizeMarketProbabilities(
   outcomes: { label: string; price: number }[]
 ) {
