@@ -25,7 +25,6 @@ export default function RootLayout({
           </div>
 
           {/* Navbar */}
-          {/* Navbar header */}
           <header className="relative z-20 border-b border-ov-border/70 bg-gradient-to-b from-black/60 via-black/40 to-transparent backdrop-blur">
             <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
               <Link href="/" className="flex items-center gap-2">
