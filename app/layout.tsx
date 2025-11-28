@@ -61,10 +61,28 @@ export default function RootLayout({
                 Market data from Polymarket Gamma API. This UI is informational
                 only and does not execute trades.
               </p>
-              <p className="text-[9px]">
-                Respect Polymarket&apos;s Terms of Service when using their
-                platform.
-              </p>
+              <div className="flex flex-col items-end gap-1 sm:items-end">
+                <p className="text-[9px]">
+                  Respect Polymarket&apos;s Terms of Service when using their
+                  platform.
+                </p>
+                <a
+                  href="https://x.com/PolyHubAI"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 text-[10px] text-ov-text-muted hover:text-ov-accent transition-colors"
+                >
+                  <svg
+                    className="h-3.5 w-3.5"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <path d="M13.482 10.577v3.844h2.496c-.19 1.22-.713 2.252-1.567 3.097-1.027 1.028-2.496 1.542-4.406 1.542-3.487 0-6.22-2.608-6.22-6.22 0-3.487 2.733-6.22 6.22-6.22 1.853 0 3.358.713 4.52 2.139l1.937-1.937C14.913 3.486 12.947 2.51 10.005 2.51c-5.168 0-9.229 4.061-9.229 9.23 0 5.168 4.061 9.229 9.229 9.229 4.787 0 8.405-3.298 9.352-7.748H22v-5.844h-8.518z" />
+                  </svg>
+                  <span>@PolyHubAI</span>
+                </a>
+              </div>
             </div>
           </footer>
         </div>
