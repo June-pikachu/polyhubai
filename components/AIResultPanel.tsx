@@ -22,6 +22,10 @@ type Props = {
  * Displays AI analysis results including probability comparisons and reasoning.
  * Shows probability bars, reasoning text, bullet points, and sources.
  */
+/**
+ * Main panel displaying AI vs Market comparison with probability bars and reasoning.
+ * Provides a refresh button to regenerate AI analysis for the current market.
+ */
 export function AIResultPanel({ analysis, loading, onRefresh }: Props) {
   return (
     <div className="space-y-4">

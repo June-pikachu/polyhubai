@@ -10,6 +10,7 @@ type Props = {
 };
 
 export function MarketCard({ market }: Props) {
+  // Find the outcome with the highest market probability
   const bestOutcome =
     [...market.outcomes].sort((a, b) => b.price - a.price)[0] || null;
 

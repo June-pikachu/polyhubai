@@ -4,6 +4,7 @@ import { MarketCard } from "@/components/MarketCard";
 export const dynamic = "force-dynamic";
 
 export default async function MarketsPage() {
+  // Fetch top 40 markets by volume from Polymarket Gamma API
   const markets = await fetchMarketsFromGamma(40);
 
   return (
