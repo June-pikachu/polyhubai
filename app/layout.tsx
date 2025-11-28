@@ -47,6 +47,12 @@ export default function RootLayout({
                 >
                   Markets
                 </Link>
+                <Link
+                  href="/agent-manager"
+                  className="rounded-full border border-ov-border/80 bg-black/40 px-3 py-1.5 text-xs text-ov-text-muted hover:border-ov-accent hover:text-white hover:shadow-ov-glow transition-all"
+                >
+                  Agent Manager
+                </Link>
               </nav>
             </div>
           </header>
