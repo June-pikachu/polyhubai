@@ -17,7 +17,7 @@ export function ReasoningFeed({ reasoning, bullets, sources }: Props) {
         AI reasoning
       </h3>
       {/* Main reasoning paragraph from the AI */}
-      <p className="text-sm leading-relaxed text-slate-200/90">{reasoning}</p>
+      <p className="text-sm leading-relaxed text-slate-200/85">{reasoning}</p>
       {/* Bullet points summarizing key factors */}
       {bullets.length > 0 && (
         {/* List of bullet points with leading dots */}

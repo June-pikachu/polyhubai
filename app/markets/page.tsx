@@ -12,7 +12,7 @@ export default async function MarketsPage() {
       <div className="mb-4 flex flex-col gap-2 sm:flex-row sm:items-baseline sm:justify-between">
         <div>
           <h1 className="text-lg font-semibold tracking-tight">Markets</h1>
-          <p className="text-[11px] text-ov-text-muted">
+          <p className="text-[11px] text-ov-text-muted/90">
             Live questions from Polymarket Gamma. Sorted roughly by volume.
           </p>
         </div>

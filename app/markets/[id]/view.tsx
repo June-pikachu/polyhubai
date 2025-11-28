@@ -33,7 +33,7 @@ export function MarketDetailView({ market }: Props) {
   // Fetch AI analysis for the current market
   const runAnalysis = async () => {
     setLoading(true);
-    setError(null);
+    setError(null); // Clear any previous errors
     try {
       // POST request to trigger AI analysis for this market
       const res = await fetch(`/api/markets/${market.id}/ai`, {
