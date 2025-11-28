@@ -110,6 +110,10 @@ export async function fetchMarketByIdFromGamma(
   return markets.find((m) => m.id === id) ?? null;
 }
 
+/**
+ * Builds a Polymarket URL for a given market.
+ * Uses event slug if available, otherwise falls back to market slug or search query.
+ */
 export function buildPolymarketUrl(market: MarketSummary): string {
   const base = "https://polymarket.com";
 
