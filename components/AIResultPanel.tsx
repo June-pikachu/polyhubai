@@ -18,6 +18,10 @@ type Props = {
   onRefresh: () => void;
 };
 
+/**
+ * Displays AI analysis results including probability comparisons and reasoning.
+ * Shows probability bars, reasoning text, bullet points, and sources.
+ */
 export function AIResultPanel({ analysis, loading, onRefresh }: Props) {
   return (
     <div className="space-y-4">
