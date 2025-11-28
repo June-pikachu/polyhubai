@@ -49,6 +49,7 @@ export async function POST(_: Request, { params }: Params) {
   // Normalize market probabilities so they sum to ~1.0 for comparison with AI probabilities
   const marketProbs = normalizeMarketProbabilities(market.outcomes);
 
+  // Construct OpenAI chat messages with system prompt and market context
   const messages = [
     {
       role: "system" as const,
