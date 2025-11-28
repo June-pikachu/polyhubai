@@ -20,8 +20,8 @@ export default function RootLayout({
         <div className="relative min-h-screen flex flex-col">
           {/* Ambient glow background for visual depth */}
           <div className="pointer-events-none fixed inset-0 opacity-60">
-            <div className="absolute -top-32 -left-32 h-80 w-80 rounded-full bg-ov-accent blur-3xl opacity-20" />
-            <div className="absolute -bottom-32 -right-32 h-80 w-80 rounded-full bg-ov-purple blur-3xl opacity-25" />
+            <div className="absolute -top-32 -left-32 h-80 w-80 rounded-full bg-ov-accent blur-3xl opacity-18" />
+            <div className="absolute -bottom-32 -right-32 h-80 w-80 rounded-full bg-ov-purple blur-3xl opacity-22" />
           </div>
 
           {/* Navbar */}
