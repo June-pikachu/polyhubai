@@ -21,6 +21,7 @@ export default async function MarketsPage() {
         </p>
       </div>
 
+      {/* Grid of market cards, responsive: 1 col mobile, 2 tablet, 3 desktop */}
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {markets.map((m) => (
           <MarketCard key={m.id} market={m} />

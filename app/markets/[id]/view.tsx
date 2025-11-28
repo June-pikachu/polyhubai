@@ -126,11 +126,12 @@ export function MarketDetailView({ market }: Props) {
             </div>
           )}
 
-      <p className="text-[10px] text-ov-text-muted">
-        PolyHubAI uses AI to generate probabilities and explanations. This may
-        be inaccurate or outdated relative to Polymarket&apos;s live markets.
-        Do not rely on this data for actual trades.
-      </p>
+          {/* Disclaimer about AI-generated data */}
+          <p className="text-[10px] text-ov-text-muted">
+            PolyHubAI uses AI to generate probabilities and explanations. This may
+            be inaccurate or outdated relative to Polymarket&apos;s live markets.
+            Do not rely on this data for actual trades.
+          </p>
     </div>
   );
 }

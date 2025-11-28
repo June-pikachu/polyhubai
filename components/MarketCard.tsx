@@ -42,6 +42,7 @@ export function MarketCard({ market }: Props) {
         </div>
       </div>
 
+      {/* Market metadata: end date and trading volume */}
       <div className="mt-3 flex flex-wrap items-center gap-2 text-[10px] text-ov-text-muted">
         {market.end_date && (
           <span className="rounded-full border border-ov-border/60 bg-black/40 px-2 py-0.5">

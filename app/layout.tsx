@@ -58,7 +58,7 @@ export default function RootLayout({
             </div>
           </header>
 
-          {/* Content */}
+          {/* Main content area */}
           <main className="relative z-10 flex-1">{children}</main>
 
           {/* Footer */}

@@ -20,6 +20,7 @@ export function ReasoningFeed({ reasoning, bullets, sources }: Props) {
       <p className="text-sm leading-relaxed text-slate-200/90">{reasoning}</p>
       {/* Bullet points summarizing key factors */}
       {bullets.length > 0 && (
+        {/* List of bullet points with leading dots */}
         <ul className="mt-2 space-y-1.5 text-sm text-ov-text-muted">
           {bullets.map((b, i) => (
             <li key={i} className="flex gap-2">
