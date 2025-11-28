@@ -25,7 +25,7 @@ export default function HomePage() {
               Explore markets
             </Link>
             <span className="text-[11px] text-ov-text-muted">
-              No wallet. No orders. Just probabilities.
+              No wallet. No trades. Pure insight.
             </span>
           </div>
         </div>
