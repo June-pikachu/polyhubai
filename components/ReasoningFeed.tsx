@@ -8,13 +8,13 @@ type Props = {
 
 export function ReasoningFeed({ reasoning, bullets, sources }: Props) {
   return (
-    <div className="space-y-3 rounded-2xl border border-ov-border/70 bg-black/60 p-4">
+    <div className="space-y-3 rounded-2xl border border-ov-border/65 bg-black/60 p-4">
       <h3 className="text-xs font-semibold text-ov-text-muted/95 uppercase tracking-wide">
         AI reasoning
       </h3>
       <p className="text-sm leading-relaxed text-slate-200/90">{reasoning}</p>
       {bullets.length > 0 && (
-        <ul className="mt-2 space-y-1.5 text-sm text-ov-text-muted">
+        <ul className="mt-2 space-y-1.5 text-sm text-ov-text-muted/95">
           {bullets.map((b, i) => (
             <li key={i} className="flex gap-2">
               <span className="mt-[6px] h-[3px] w-[3px] rounded-full bg-ov-accent/80" />

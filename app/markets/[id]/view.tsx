@@ -104,7 +104,7 @@ export function MarketDetailView({ market }: Props) {
 
             {/* Show the outcome with the highest current market probability */}
             {bestOutcome && (
-              <p className="text-[12px] text-ov-text-muted">
+              <p className="text-[12px] text-ov-text-muted/95">
                 Current market favorite:{" "}
                 <span className="font-semibold text-purple-300">
                   {bestOutcome.label} · {(bestOutcome.price * 100).toFixed(1)}%

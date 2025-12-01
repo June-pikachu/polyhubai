@@ -43,13 +43,13 @@ export default function RootLayout({
               <nav className="flex items-center gap-3 text-xs font-medium">
                 <Link
                   href="/markets"
-                  className="rounded-full border border-ov-border/80 bg-black/40 px-3 py-1.5 text-xs text-ov-text-muted hover:border-ov-accent hover:text-white hover:shadow-ov-glow transition-all"
+                  className="rounded-full border border-ov-border/75 bg-black/40 px-3 py-1.5 text-xs text-ov-text-muted hover:border-ov-accent hover:text-white hover:shadow-ov-glow transition-all"
                 >
                   Markets
                 </Link>
                 <Link
                   href="/agent-manager"
-                  className="rounded-full border border-ov-border/80 bg-black/40 px-3 py-1.5 text-xs text-ov-text-muted hover:border-ov-accent hover:text-white hover:shadow-ov-glow transition-all"
+                  className="rounded-full border border-ov-border/75 bg-black/40 px-3 py-1.5 text-xs text-ov-text-muted hover:border-ov-accent hover:text-white hover:shadow-ov-glow transition-all"
                 >
                   Agent Manager
                 </Link>
@@ -61,7 +61,7 @@ export default function RootLayout({
           <main className="relative z-10 flex-1">{children}</main>
 
           {/* Footer */}
-          <footer className="relative z-10 border-t border-ov-border/60 bg-black/50 backdrop-blur">
+          <footer className="relative z-10 border-t border-ov-border/55 bg-black/50 backdrop-blur">
             <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-3 text-[10px] text-ov-text-muted sm:flex-row sm:items-center sm:justify-between">
               <p>
                 Market data from Polymarket Gamma API. This UI is informational

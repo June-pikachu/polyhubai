@@ -26,7 +26,7 @@ export default function HomePage() {
                 >
                   Explore markets
                 </Link>
-                <span className="text-[11px] text-ov-text-muted/90">
+                <span className="text-[11px] text-ov-text-muted">
                   No wallet. No trades. Pure insight.
                 </span>
           </div>
@@ -104,7 +104,7 @@ export default function HomePage() {
                 </p>
 
                 <div className="grid gap-3 text-[11px] md:grid-cols-3">
-                  <div className="space-y-1 rounded-2xl border border-ov-border/70 bg-black/70 p-3">
+                  <div className="space-y-1 rounded-2xl border border-ov-border/65 bg-black/70 p-3">
                     <p className="text-[10px] font-semibold uppercase tracking-wide text-ov-text-muted">
                       Embedded wallets
                     </p>
@@ -114,7 +114,7 @@ export default function HomePage() {
                       phrases or extensions.
                     </p>
                   </div>
-                  <div className="space-y-1 rounded-2xl border border-ov-border/70 bg-black/70 p-3">
+                  <div className="space-y-1 rounded-2xl border border-ov-border/65 bg-black/70 p-3">
                     <p className="text-[10px] font-semibold uppercase tracking-wide text-ov-text-muted">
                       Auto trading agents
                     </p>
@@ -124,7 +124,7 @@ export default function HomePage() {
                       rules, risk limits, and sizing logic.
                     </p>
                   </div>
-                  <div className="space-y-1 rounded-2xl border border-ov-border/70 bg-black/70 p-3">
+                  <div className="space-y-1 rounded-2xl border border-ov-border/65 bg-black/70 p-3">
                     <p className="text-[10px] font-semibold uppercase tracking-wide text-ov-text-muted">
                       One interface, full loop
                     </p>

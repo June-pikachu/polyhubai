@@ -18,7 +18,7 @@ export function ProbabilityBars({ aiProbabilities, marketProbabilities }: Props)
   );
 
   return (
-        <div className="space-y-3 rounded-2xl border border-ov-border/60 bg-black/60 p-4">
+        <div className="space-y-3 rounded-2xl border border-ov-border/55 bg-black/55 p-4">
       <div className="flex items-center justify-between text-xs font-semibold text-ov-text-muted">
         <span>Outcome</span>
         <div className="flex gap-4 text-[10px]">
@@ -37,10 +37,10 @@ export function ProbabilityBars({ aiProbabilities, marketProbabilities }: Props)
               <div className="flex items-center justify-between text-[11px]">
                 <span className="text-ov-text-muted">{label}</span>
                 <div className="flex gap-3 text-[10px]">
-                  <span className="text-cyan-300/90">
+                  <span className="text-cyan-300">
                     AI {Math.round(ai * 100)}%
                   </span>
-                  <span className="text-purple-300/90">
+                  <span className="text-purple-300">
                     Mkt {Math.round(mkt * 100)}%
                   </span>
                 </div>

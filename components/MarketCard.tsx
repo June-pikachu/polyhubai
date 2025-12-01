@@ -30,7 +30,7 @@ export function MarketCard({ market }: Props) {
             </span>
             {/* Display the current market favorite outcome and its probability */}
             {bestOutcome && (
-                <span className="inline-flex items-center rounded-full bg-emerald-500/10 px-2.5 py-0.5 text-[10px] font-semibold text-emerald-300/90">
+                <span className="inline-flex items-center rounded-full bg-emerald-500/12 px-2.5 py-0.5 text-[10px] font-semibold text-emerald-300">
                   Market: {bestOutcome.label} ·{" "}
                   {(bestOutcome.price * 100).toFixed(1)}%
                 </span>
@@ -61,7 +61,7 @@ export function MarketCard({ market }: Props) {
 
       {/* Action buttons section */}
       <div className="mt-4 flex items-center justify-between gap-2">
-        <p className="text-[11px] text-ov-text-muted/90">
+        <p className="text-[11px] text-ov-text-muted">
           Click to see AI probabilities vs the market, or open the original on
           Polymarket.
         </p>
