@@ -35,7 +35,7 @@ export default function HomePage() {
             {/* Example snapshot card showing UI preview */}
             <div className="flex-1">
               <div className="relative overflow-hidden rounded-3xl border border-ov-border/70 bg-gradient-to-br from-black/80 via-ov-bg-soft/90 to-black/90 p-4 shadow-ov-soft">
-                <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_20%_0,_rgba(34,211,238,0.15)_0,_transparent_50%),radial-gradient(circle_at_80%_100%,_rgba(168,85,247,0.18)_0,_transparent_50%)]" />
+                <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_20%_0,_rgba(34,211,238,0.16)_0,_transparent_50%),radial-gradient(circle_at_80%_100%,_rgba(168,85,247,0.19)_0,_transparent_50%)]" />
             <div className="relative space-y-4">
               <p className="text-xs font-semibold text-ov-text-muted">
                 Live-style snapshot
@@ -72,7 +72,7 @@ export default function HomePage() {
       <section className="border-t border-ov-border/60 bg-black/40">
         <div className="mx-auto max-w-6xl px-4 py-9">
           <div className="relative overflow-hidden rounded-3xl border border-ov-border/65 bg-gradient-to-br from-black/85 via-ov-bg-soft/95 to-black/90 p-5 shadow-ov-soft/90">
-            <div className="pointer-events-none absolute inset-0 opacity-55">
+            <div className="pointer-events-none absolute inset-0 opacity-58">
               <div className="absolute -left-10 top-0 h-40 w-40 rounded-full bg-ov-accent/20 blur-3xl" />
               <div className="absolute -right-10 bottom-0 h-40 w-40 rounded-full bg-ov-purple/25 blur-3xl" />
             </div>

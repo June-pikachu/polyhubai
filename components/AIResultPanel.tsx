@@ -30,7 +30,7 @@ export function AIResultPanel({ analysis, loading, onRefresh }: Props) {
   return (
     <div className="space-y-4">
       <div className="flex items-center justify-between gap-2">
-        <h2 className="text-xs font-semibold uppercase tracking-wide text-ov-text-muted/90">
+        <h2 className="text-xs font-semibold uppercase tracking-wide text-ov-text-muted">
           AI vs Market
         </h2>
         {/* Button to manually refresh AI analysis */}
