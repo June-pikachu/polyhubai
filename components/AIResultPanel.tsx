@@ -43,7 +43,7 @@ export function AIResultPanel({ analysis, loading, onRefresh }: Props) {
           {loading ? (
             <span className="inline-flex items-center gap-1">
               <span className="h-3 w-3 animate-spin rounded-full border border-ov-accent border-t-transparent" />
-              Refresh
+              Analyzing...
             </span>
           ) : (
             "Re-run AI view"
