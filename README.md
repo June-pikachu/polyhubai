@@ -2,7 +2,7 @@
 
 > **Who's smarter: the crowd or the model?**
 
-PolyHubAI is an AI-powered prediction market explorer that lets you compare AI-generated probabilities with live Polymarket odds. Discover where artificial intelligence diverges from collective market wisdom in real-time.
+PolyHubAI is an AI-powered prediction market explorer that enables you to compare AI-generated probabilities with live Polymarket odds. Discover where artificial intelligence diverges from collective market wisdom in real-time.
 
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.5-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
