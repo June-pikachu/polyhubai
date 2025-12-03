@@ -13,7 +13,7 @@ export default async function MarketsPage() {
         <div>
           <h1 className="text-lg font-semibold tracking-tight">Markets</h1>
           <p className="text-[11px] text-ov-text-muted">
-            Live questions from Polymarket Gamma. Sorted roughly by volume.
+            Active prediction markets sorted by trading volume
           </p>
         </div>
         <p className="text-[10px] text-ov-text-muted">
