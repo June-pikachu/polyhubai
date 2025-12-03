@@ -3,6 +3,10 @@ import { MarketCard } from "@/components/MarketCard";
 
 export const dynamic = "force-dynamic";
 
+/**
+ * Markets listing page displaying active prediction markets from Polymarket.
+ * Fetches top 40 markets sorted by trading volume and renders them in a responsive grid.
+ */
 export default async function MarketsPage() {
   // Fetch top 40 markets by volume from Polymarket Gamma API
   const markets = await fetchMarketsFromGamma(40);
