@@ -5,8 +5,13 @@ type Params = { params: { id: string } };
 
 /**
  * GET /api/markets/[id]
- * Returns a single market by ID from Polymarket Gamma API.
- * Returns 404 if market is not found.
+ * 
+ * Returns a single market by its unique ID from Polymarket Gamma API.
+ * Used when viewing a specific market's detail page.
+ * 
+ * @param params - Route params containing the market ID
+ * @param params.id - Unique market identifier from Polymarket
+ * @returns JSON response with MarketSummary object, or 404 if not found
  */
 export async function GET(_: Request, { params }: Params) {
   const market = await fetchMarketByIdFromGamma(params.id);

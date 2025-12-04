@@ -60,8 +60,13 @@ function parseOutcomes(outcomesRaw: any, pricesRaw: any): OutcomePrice[] {
 
 /**
  * Fetches active markets from Polymarket Gamma API.
+ * 
+ * Markets are fetched from the Gamma API and sorted by trading volume in descending order.
+ * Each market includes question, outcomes, category, end date, volume, and other metadata.
+ * 
  * @param limit - Maximum number of markets to fetch (default: 40)
- * @returns Array of market summaries sorted by volume
+ * @returns Promise resolving to array of MarketSummary objects, sorted by volume descending
+ * @throws Error if the API request fails or returns invalid data
  */
 export async function fetchMarketsFromGamma(limit = 40): Promise<MarketSummary[]> {
   const params = new URLSearchParams({
