@@ -19,12 +19,15 @@ type Props = {
 };
 
 /**
- * Displays AI analysis results including probability comparisons and reasoning.
- * Shows probability bars, reasoning text, bullet points, and sources.
- */
-/**
  * Main panel displaying AI vs Market comparison with probability bars and reasoning.
- * Provides a refresh button to regenerate AI analysis for the current market.
+ * 
+ * Displays:
+ * - Animated probability bars comparing AI forecasts with market odds
+ * - AI reasoning text and bullet points explaining the forecast
+ * - Optional source links provided by the AI model
+ * - Manual refresh button to regenerate analysis
+ * 
+ * Shows empty state when no analysis is available yet.
  */
 export function AIResultPanel({ analysis, loading, onRefresh }: Props) {
   return (
