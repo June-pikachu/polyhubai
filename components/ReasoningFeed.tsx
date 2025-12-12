@@ -49,9 +49,6 @@ export function ReasoningFeed({ reasoning, bullets, sources }: Props) {
           </ul>
         </div>
       )}
-      <p className="mt-2 text-[10px] text-ov-text-muted/80">
-        ⚠️ AI-generated forecast. May contain errors. Not financial or betting advice.
-      </p>
     </div>
   );
 }

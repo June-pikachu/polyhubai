@@ -36,8 +36,7 @@ export function MarketCard({ market }: Props) {
             {/* Display the current market favorite outcome and its probability */}
             {bestOutcome && (
                 <span className="inline-flex items-center rounded-full bg-emerald-500/12 px-2.5 py-0.5 text-[10px] font-semibold text-emerald-300">
-                  Market: {bestOutcome.label} ·{" "}
-                  {(bestOutcome.price * 100).toFixed(1)}%
+                  {bestOutcome.label} · {(bestOutcome.price * 100).toFixed(1)}%
                 </span>
             )}
           </div>

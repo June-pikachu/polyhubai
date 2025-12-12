@@ -137,9 +137,6 @@ export function MarketDetailView({ market }: Props) {
           )}
 
           {/* Disclaimer about AI-generated data */}
-          <p className="text-[10px] text-ov-text-muted/85">
-            ⚠️ AI forecasts are experimental and may be inaccurate. Always verify data independently. Not financial advice.
-          </p>
     </div>
   );
 }
