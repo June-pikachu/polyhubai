@@ -41,7 +41,7 @@ export function MarketsClient({ markets }: Props) {
         <div>
           <h1 className="text-lg font-semibold tracking-tight">Markets</h1>
           <p className="text-[11px] text-ov-text-muted">
-            Active prediction markets sorted by trading volume
+            Active prediction markets from Polymarket
           </p>
         </div>
         <div className="flex items-center gap-2">
