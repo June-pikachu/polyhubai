@@ -15,6 +15,7 @@ type SortOption = "volume" | "date";
  * Displays markets in a responsive grid with dropdown to sort by volume or end date.
  */
 export function MarketsClient({ markets }: Props) {
+  // Default to volume sorting to show highest trading volume markets first
   const [sortBy, setSortBy] = useState<SortOption>("volume");
 
   // Sort markets based on selected criteria
@@ -52,7 +53,7 @@ export function MarketsClient({ markets }: Props) {
           </p>
         </div>
         <div className="flex items-center gap-2">
-          <label htmlFor="sort" className="text-[10px] text-ov-text-muted">
+          <label htmlFor="sort" className="text-[10px] text-ov-text-muted/90">
             Sort by:
           </label>
           <select
