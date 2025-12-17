@@ -5,6 +5,7 @@ import { MarketCard } from "@/components/MarketCard";
 import type { MarketSummary } from "@/lib/polymarket";
 
 type Props = {
+  /** Array of market summaries to display and sort */
   markets: MarketSummary[];
 };
 
@@ -70,7 +71,7 @@ export function MarketsClient({ markets }: Props) {
         </div>
       </div>
 
-      {/* Grid of market cards, responsive: 1 col mobile, 2 tablet, 3 desktop */}
+      {/* Responsive grid layout: 1 column on mobile, 2 on tablet, 3 on desktop */}
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {sortedMarkets.map((m) => (
           <MarketCard key={m.id} market={m} />
